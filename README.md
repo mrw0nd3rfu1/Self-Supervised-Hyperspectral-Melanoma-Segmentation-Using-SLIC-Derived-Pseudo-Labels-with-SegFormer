@@ -201,6 +201,7 @@ This code accompanies the following peer-reviewed paper. If you use this reposit
 
 >A. Pandey et al., Big Data and Cognitive Computing, vol. 10, no. 3, p. 75, 2026. Available: https://www.mdpi.com/2504-2289/10/3/75
 
+```bibtex
 @article{pandey2026gnn,
   title   = {Graph Neural Networks and Language Models for Academic Performance Evaluation},
   author  = {Pandey, Abhinav and others},
@@ -211,6 +212,7 @@ This code accompanies the following peer-reviewed paper. If you use this reposit
   year    = {2026},
   url     = {https://www.mdpi.com/2504-2289/10/3/75}
 }
+```
 
 (The journal “Big Data and Cognitive Computing” is an MDPI publication, ISSN 2504-2289.)
 
