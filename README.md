@@ -187,7 +187,7 @@ project/
 
 ## Citation
 
-If you use this code or the HSIDermoscopy dataset, please cite appropriately:
+If you use the HSIDermoscopy dataset, please cite appropriately:
 
 ```bibtex
 @misc{hsidermoscopy,
@@ -196,6 +196,23 @@ If you use this code or the HSIDermoscopy dataset, please cite appropriately:
   url={https://github.com/heugyy/HSIDermoscopy}
 }
 ```
+
+This code accompanies the following peer-reviewed paper. If you use this repository in your research, please cite:
+
+>A. Pandey et al., Big Data and Cognitive Computing, vol. 10, no. 3, p. 75, 2026. Available: https://www.mdpi.com/2504-2289/10/3/75
+
+@article{pandey2026gnn,
+  title   = {Graph Neural Networks and Language Models for Academic Performance Evaluation},
+  author  = {Pandey, Abhinav and others},
+  journal = {Big Data and Cognitive Computing},
+  volume  = {10},
+  number  = {3},
+  pages   = {75},
+  year    = {2026},
+  url     = {https://www.mdpi.com/2504-2289/10/3/75}
+}
+
+(The journal “Big Data and Cognitive Computing” is an MDPI publication, ISSN 2504-2289.)
 
 ## License
 
