@@ -1,0 +1,20 @@
+HELICoiD: PCA vs no PCA with SegFormer
+============================================================
+Data: 70 images, 40 patients, 826 bands in files, 128 used; calibrated 70/70
+Images with tumour labels: 36
+
+PART 1. Automatic pseudo labels vs expert tumour labels (mean per image)
+  With PCA     Dice 0.307   precision 0.349   recall 0.382
+  Without PCA  Dice 0.325   precision 0.346   recall 0.438
+
+PART 2. SegFormer on expert labels, 5-fold patient-wise cross-validation, 20 epochs
+  With PCA (3 channels)        accuracy 0.836   mean IoU 0.556   tumour Dice 0.359   tumour recall 0.256
+  Without PCA (128 bands)      accuracy 0.870   mean IoU 0.594   tumour Dice 0.186   tumour recall 0.107
+  IoU per class:
+    Normal tissue   With PCA: 0.689   Without PCA: 0.732
+    Tumour          With PCA: 0.218   Without PCA: 0.103
+    Blood vessel    With PCA: 0.470   Without PCA: 0.668
+    Background      With PCA: 0.847   Without PCA: 0.874
+  Tumour Dice per fold, with PCA:    0.121, 0.393, 0.367, 0.455, 0.540
+  Tumour Dice per fold, without PCA: 0.000, 0.331, 0.154, 0.000, 0.178
+  PCA better in 5 of 5 folds

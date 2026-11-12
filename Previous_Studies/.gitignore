@@ -1,0 +1,6 @@
+.venv/
+# Large data and model outputs
+Dataset/
+NoPCA_TrainData/
+NoPCA_Results/
+HSI_project_for_colab.zip
