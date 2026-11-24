@@ -1,0 +1,10 @@
+Final Validation Metrics
+==============================
+Accuracy: 0.9465
+Precision: 0.8015
+Recall: 0.2062
+F1 Score: 0.3280
+Iou: 0.1962
+Specificity: 0.9489
+Dice Score: 0.3280
+Sensitivity: 0.2062
